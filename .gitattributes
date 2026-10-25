@@ -1,0 +1,2 @@
+# Store every file exactly as copied, so checksums match the source.
+* -text

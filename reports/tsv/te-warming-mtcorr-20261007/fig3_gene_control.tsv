@@ -1,0 +1,9 @@
+tissue	fit	observed	rank832	margin	n_ge_obs
+brain	registered	917	57	860	10
+brain	M1	918	57	861	10
+digestive_tract	registered	1017	43	974	22
+digestive_tract	M1	1013	43	970	22
+liver	registered	1436	73	1363	8
+liver	M1	1435	73	1362	10
+muscle	registered	101	92	9	90
+muscle	M1	101	94	7	90

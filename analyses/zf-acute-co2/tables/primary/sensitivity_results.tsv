@@ -1,0 +1,7 @@
+tissue	sensitivity	n_fdr05	share_primary_null_ge
+brain	unique_counts	0	1.0
+brain	exclude_EB19_EB21	0	1.0
+brain	no_cohort_term	0	1.0
+gill	unique_counts	0	1.0
+gill	exclude_EG22_EG19	0	1.0
+gill	no_cohort_term	0	1.0

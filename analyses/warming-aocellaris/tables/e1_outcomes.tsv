@@ -1,0 +1,9 @@
+tissue	measure	n_obs	perm_p	n_unknown_obs	class_not_found	outcome
+brain	unique	1	0.3442	0	0	NO_DETECTABLE_INTACT_SHIFT
+brain	multi	0	1.0	0	0	NO_DETECTABLE_INTACT_SHIFT
+digestive_tract	unique	0	1.0	0	0	NO_DETECTABLE_INTACT_SHIFT
+digestive_tract	multi	0	1.0	0	0	NO_DETECTABLE_INTACT_SHIFT
+liver	unique	3	0.0065	0	0	TANK_TEMPERATURE_SHIFT_INTACT
+liver	multi	7	0.0065	0	0	TANK_TEMPERATURE_SHIFT_INTACT
+muscle	unique	0	1.0	0	0	NO_DETECTABLE_INTACT_SHIFT
+muscle	multi	0	1.0	0	0	NO_DETECTABLE_INTACT_SHIFT
