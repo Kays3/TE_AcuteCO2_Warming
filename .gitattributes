@@ -1,4 +1,2 @@
-*.png binary
-*.pdf binary
-*.tsv text eol=lf
-*.csv text eol=lf
+# Store every file exactly as copied, so checksums match the source.
+* -text
