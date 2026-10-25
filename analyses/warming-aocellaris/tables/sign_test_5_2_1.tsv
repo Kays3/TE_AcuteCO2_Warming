@@ -1,0 +1,9 @@
+level	tissue	n_pass	up	down	sign_test_p	underpowered
+family	brain	8	1	7	0.0703	True
+family	digestive_tract	22	4	18	0.0043	False
+family	liver	24	4	20	0.0015	False
+family	muscle	0	0	0		True
+superfamily	brain	0	0	0		True
+superfamily	digestive_tract	5	0	5	0.0625	True
+superfamily	liver	2	0	2	0.5	True
+superfamily	muscle	0	0	0		True

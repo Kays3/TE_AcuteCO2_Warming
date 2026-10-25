@@ -1,0 +1,9 @@
+level	tissue	n_primary_fdr05	perm_p	null_median	null_p95	outcome	n_unknown_fdr05	n_gene_fdr05	gene_null_p95	gene_perm_p	gene_exceeds_p95	te_gene_ratio	te_gene_ratio_perm_p_upper	te_gene_ratio_null_median
+family	brain	8	0.0022	0.0	3.0	TANK_TEMPERATURE_SHIFT_DETECTED	2	917	127.0	0.0108	True	0.721	0.4773	0.719
+family	digestive_tract	22	0.0065	0.0	4.0	TANK_TEMPERATURE_SHIFT_DETECTED	4	1017	140.0	0.0238	True	0.792	0.1732	0.739
+family	liver	24	0.0043	0.0	4.0	TANK_TEMPERATURE_SHIFT_DETECTED	29	1436	271.0	0.0087	True	0.767	0.6017	0.797
+family	muscle	0	1.0	0.0	2.0	NO_DETECTABLE_TANK_SHIFT	0	101	402.0	0.0974	False	0.593	0.2576	0.532
+superfamily	brain	0	1.0	0.0	1.0	NO_DETECTABLE_TANK_SHIFT	0	916	134.0	0.0108	True	0.768	0.7532	0.947
+superfamily	digestive_tract	5	0.0043	0.0	1.0	TANK_TEMPERATURE_SHIFT_DETECTED	0	1000	134.0	0.0238	True	0.689	0.5303	0.7
+superfamily	liver	2	0.039	0.0	1.0	NO_DETECTABLE_TANK_SHIFT	0	1404	274.0	0.0108	True	0.842	0.5357	0.861
+superfamily	muscle	0	1.0	0.0	1.0	NO_DETECTABLE_TANK_SHIFT	0	95	358.0	0.0952	False	0.638	0.2911	0.553

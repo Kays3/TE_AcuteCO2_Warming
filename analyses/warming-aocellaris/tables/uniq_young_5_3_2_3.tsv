@@ -1,0 +1,5 @@
+tissue	n_multi	n_uniq	multi_only	uniq_only	n_young_tested	n_young_hits
+brain	8	7	3	2	118	3
+digestive_tract	22	24	4	6	107	3
+liver	24	23	2	1	95	4
+muscle	0	3	0	3	95	0

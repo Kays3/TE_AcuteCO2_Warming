@@ -1,0 +1,5 @@
+tissue	n_genes	n_missing_m1	n_fdr05_reg	n_fdr05_m1	n_up_fdr05_m1	max_abs_lfc_change
+brain	64	0	8	8	8	7.237874661991661e-05
+digestive_tract	65	0	11	11	10	0.0001556507462370238
+liver	57	0	11	11	11	6.433930674298871e-05
+muscle	65	0	4	4	4	6.483800473210122e-05
