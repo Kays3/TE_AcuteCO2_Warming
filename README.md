@@ -6,7 +6,7 @@ This repository brings together two completed transposable element (TE) expressi
 |---|---|---|---|
 | Acute CO2 (5 days, about 1,000 µatm) in adult zebrafish brain and gill | PRJNA1102381, 26 libraries (Sourisse et al. 2025) | `analyses/zf-acute-co2/` | `reports/md/zf-acute-20261006.md` |
 | Warming (28 vs 31 °C) in post-larval *Amphiprion ocellaris*, four tissues | PRJNA970523, 48 libraries (Moore et al. 2024) | `analyses/warming-aocellaris/` | `reports/md/te-warming-aocellaris-20261003.md` |
-| Warming, post-hoc re-check after removing mitochondrial rRNA from gene counts | same 48 libraries | `analyses/warming-aocellaris/mtcorr/` | `reports/md/te-warming-mtcorr-20261007.md` |
+| Warming, post-hoc re-check after removing the rRNA genes (2 mitochondrial, 93 nuclear) from gene counts | same 48 libraries | `analyses/warming-aocellaris/mtcorr/` | `reports/md/te-warming-mtcorr-20261007.md` |
 
 There is no acute warming experiment. The warming study has no acute arm, and the only acute exposure here is CO2.
 
@@ -22,13 +22,13 @@ These readings are taken from the reports. Each limit belongs with its reading a
 - Each temperature was one tank of 6 larvae from a single breeding pair, so every result is a difference between two tanks. No analysis here can separate temperature from tank.
 - Brain (8 families), digestive tract (22) and liver (24) read `TANK_TEMPERATURE_SHIFT_DETECTED`. The shifts are mostly downward in the 31 °C tank and modest, with a median |log2 fold change| of 0.22 to 0.72. Brain has fewer than 10 passing families and is flagged as underpowered.
 - Muscle failed the registered gene positive control, so its 0 families is not a negative result.
-- Post-hoc (Amendment 5): removing mitochondrial rRNA from gene counts leaves the TE calls unchanged. Muscle passes a relaxed (90th percentile) control by 7 genes, so its null is weak evidence, and the aggregate TE index in muscle is still lower at 31 °C. These post-hoc readings do not upgrade or change the registered ones.
+- Post-hoc (Amendment 5): removing the rRNA genes (2 mitochondrial, 93 nuclear) from gene counts leaves the TE calls unchanged. Those genes hold only 0.03 to 0.30 % of gene counts, so this does not test whether library composition more broadly drives the shifts; the covariate sensitivity cannot answer that in the digestive tract, where the covariate separates the two tanks. Muscle passes a relaxed (90th percentile) control by 7 genes, so its null is weak evidence, and the aggregate TE index in muscle is still lower in the 31 °C tank. These post-hoc readings do not upgrade or change the registered ones.
 
 Nothing here bears on transposition or mobilisation.
 
 ## Layout
 
-- `analyses/<name>/`: pre-registration, registration or amendments, run record, scripts, compact result tables. Copied from TE_Ocean_Acidification `paper/results/`.
+- `analyses/<name>/`: pre-registration, registration or amendments, run record, scripts, compact result tables. Copied from TE_Ocean_Acidification `paper/results/`. The written reports are only under `reports/`.
 - `reports/md`, `reports/pdf`, `reports/png`: the written reports with their figures. The directory layout follows the source, so the image links in the Markdown files resolve.
 - `reports/py`, `reports/tsv`: the figure script and tables for the mito-rRNA report.
 
